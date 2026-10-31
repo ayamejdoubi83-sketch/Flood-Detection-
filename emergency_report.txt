@@ -1,0 +1,37 @@
+AI FLOOD EMERGENCY REPORT
+==================================================
+Date: 2026-10-28 10:32
+Image analyzed: floodphoto.jpeg (346x279 px)
+Model: yolo11n.pt | Confidence threshold: 0.40
+
+1. SUMMARY
+   Total detections: 5
+   Risk level: HIGH
+   Reason: Several vehicles (5) are in the flooded area.
+
+2. DETECTED OBJECTS
+   - car | confidence 91% | position: center
+   - motorcycle | confidence 81% | position: right
+   - car | confidence 65% | position: left
+   - motorcycle | confidence 55% | position: center
+   - motorcycle | confidence 52% | position: center
+
+3. OBSTACLES PER ZONE
+   - left: 8% covered
+   - center: 65% covered
+   - right: 24% covered
+
+4. SUGGESTED DIRECTION: left side
+   Least obstructed zone. Suggestion only, NOT verified safe.
+
+5. RECOMMENDED ACTIONS
+   - Vehicle detected: do not drive through floodwater.
+   - Move to higher ground if flooding threatens.
+   - Follow official emergency instructions.
+   - [car] Do not drive through floodwater: 30 cm of water can move a car.
+   - [motorcycle] Do not ride through floodwater.
+
+6. LIMITATIONS
+   - Water depth and current are not measured.
+   - Hidden obstacles (holes, debris) cannot be detected.
+   - Always follow official emergency instructions.
